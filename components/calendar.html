@@ -1,0 +1,47 @@
+<div class="tab-content active" id="calendar-content">
+
+    <div id="calendar">
+
+      <div id="header">
+
+        <!-- Calendar Subscription Container -->
+        <div id="month-year-container">
+          <div id="month-year"></div>
+          <button id="subscribe-calendar" title="Subscribe to Calendar">
+            <img src="assets/chevron-down.svg" alt="Settings">
+          </button>
+        </div>
+
+        <!-- Calender Navigation Container -->
+        <div id="nav-buttons">
+          <button id="prev-month"><img src="assets/chevron-left.svg" alt="Previous"></button>
+          <button id="current-month"><img src="assets/shape-circle.svg" alt="Current"></button>
+          <button id="next-month"><img src="assets/chevron-right.svg" alt="Next"></button>
+        </div>
+
+      </div>
+
+      <div id="weekdays">
+        <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+      </div>
+
+      <div id="days"></div>
+
+    </div>
+    
+    <!-- Event list Container -->
+    <div id="events-section">
+      <div id="event-list"></div>
+    </div>
+  
+    <!-- Modal Elements -->
+    <div class="modal-overlay hidden" id="modal-overlay"></div>
+      <div id="subscribe-popup" style="display:none;">
+        <label for="calendar-url">Enter calendar URL:</label>
+        <input type="text" id="calendar-url" placeholder="https://calendar.google.com/...">
+          <div class="modal-buttons">
+            <button id="cancel-subscribe">Cancel</button>
+            <button id="confirm-subscribe">Subscribe</button>
+          </div>
+      </div>
+</div>

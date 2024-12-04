@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Usync",
+    "version": "1.0",
+    "description": "Your Campus, Your Connection, All in One Place!.",
+    "permissions": ["webRequest"],
+    "host_permissions": [
+      "https://timetable.sydney.edu.au/*", "https://usu.edu.au/page-data/events/page-data.json", "https://usyd.libcal.com/api_hours_today.php?iid=1447&format=json", "https://vemcount.app/embed/data/kQRVpG6r0lHU7QM?locale=en", "https://vemcount.app/embed/data/fto1unIGVbpWSrk?locale=en"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "assets/icon.png"
+    }
+  }
+
+  

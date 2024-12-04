@@ -1,0 +1,370 @@
+/* Main Container */
+#productivity-content {
+  width: 87%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 20px;
+}
+
+/* Productivity Container */
+.productivity-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Todo List Section */
+.todo-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 12px; 
+  padding-bottom: 20px;
+}
+
+/* Input Area */
+.todo-input {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+#task-input {
+  flex: 1;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+#task-input:focus {
+  border-color: #e64626;
+  box-shadow: 0 2px 6px rgba(230, 70, 38, 0.2);
+}
+
+#add-task-btn {
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  background-color: #e64626;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#add-task-btn:hover {
+  background-color: #d63f21;
+  transform: translateY(-1px);
+}
+
+/* Tasks Box */
+.tasks-box {
+  width: 100%;
+  max-height: 180px; 
+  padding: 12px;
+  overflow-y: auto; 
+  border-radius: 12px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom Scrollbar */
+.tasks-box::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+.tasks-box::-webkit-scrollbar-thumb {
+  background-color: #e64626;
+  border-radius: 4px;
+}
+
+.tasks-box::-webkit-scrollbar-thumb:hover {
+  background-color: #d63f21;
+}
+
+
+/* Task List */
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-item span {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #333;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: #aaa;
+  background-color: #f5f5f5;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  color: #e64626;
+  transform: scale(1.1);
+}
+
+/* Clear Completed Button */
+#clear-completed-btn {
+  display: none; 
+  align-self: flex-start;
+  padding: 12px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e64626;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#clear-completed-btn:hover {
+  background-color: #d63f21;
+  transform: translateY(-1px);
+}
+
+/* Modal Overlay */
+.modal-overlay-productivity {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Edit Popup Content */
+.edit-popup-content {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.edit-popup-content h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.edit-popup-content label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+
+.edit-popup-content input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-family: "Nunito Sans", sans-serif;
+  transition: all 0.2s ease;
+  background-color: #fafafa;
+}
+
+.edit-popup-content input:focus {
+  outline: none;
+  border-color: #e64626;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(230, 70, 38, 0.1);
+}
+
+/* Modal Buttons */
+.modal-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+#confirm-edit-btn,
+#cancel-edit-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  min-width: 80px;
+  transition: all 0.2s ease;
+}
+
+#confirm-edit-btn {
+  background-color: #e64626;
+  color: white;
+}
+
+#confirm-edit-btn:hover {
+  background-color: #d13515;
+  transform: translateY(-1px);
+}
+
+#cancel-edit-btn {
+  background-color: #f1f1f1;
+  color: #666;
+}
+
+#cancel-edit-btn:hover {
+  background-color: #e4e4e4;
+  transform: translateY(-1px);
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
+
+
+/* Pomodoro Timer Section */
+.pomodoro-timer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background-color: #d63f21;
+  border-radius: 10px;
+  padding: 8px; 
+}
+
+.timer-display {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.timer-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  background-color: #ffffff;
+  color: #d63f21; /* Matches the card color for consistency */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timer-buttons button:hover {
+  background-color: #d63f21;
+  color: #ffffff; /* Inverts colors for hover state */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Modal Styling */
+#custom-timer-modal {
+  z-index: 1001;
+}
+
+
+
+#save-custom-timer-btn,
+#cancel-custom-timer-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  min-width: 80px;
+  transition: all 0.2s ease;
+}
+
+#save-custom-timer-btn {
+  background-color: #e64626;
+  color: white;
+}
+
+#save-custom-timer-btn:hover {
+  background-color: #d13515;
+  transform: translateY(-1px);
+}
+
+#cancel-custom-timer {
+  background-color: #f1f1f1;
+  color: #666;
+}
+
+#cancel-custom-timer:hover {
+  background-color: #e4e4e4;
+  transform: translateY(-1px);
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}

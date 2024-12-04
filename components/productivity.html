@@ -1,0 +1,52 @@
+<div class="tab-content" id="productivity-content">
+  <div class="productivity-container">
+
+    <!-- Pomodoro Timer -->
+    <div class="pomodoro-timer">
+      <div class="timer-display" id="timer-display"></div> 
+      <div class="timer-buttons">
+        <button id="start-pause-btn">Start</button>
+        <button id="reset-timer-btn">Reset</button>
+        <button id="set-custom-timer-btn">Custom</button>
+      </div>
+    </div>
+    
+    <!-- Custom Timer Modal -->
+    <div id="custom-timer-modal" class="modal-overlay-productivity hidden">
+      <div class="edit-popup-content" id="custom-timer-popup">
+        <label for="custom-minutes">Set Timer (minutes):</label>
+        <input type="number" id="custom-timer-input" min="1" max="120" value="25" />
+        <div class="modal-buttons">
+          <button id="cancel-custom-timer-btn">Cancel</button>
+          <button id="save-custom-timer-btn">Set</button>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Edit Task Popup -->
+    <div id="edit-popup" class="modal-overlay-productivity hidden">
+      <div class="edit-popup-content" id="edit-popup-box">
+        <input type="text" id="edit-task-input" />
+        <div class="modal-buttons">
+          <button id="cancel-edit-btn">Cancel</button>
+          <button id="confirm-edit-btn">Edit</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Todo List -->
+    <div class="todo-list">
+      <div class="todo-input">
+        <input type="text" id="task-input" placeholder="task.." />
+        <button id="add-task-btn">Add</button>
+      </div>
+      <div class="tasks-box">
+        <ul id="task-list">
+          <!-- Dynamically add tasks here -->
+        </ul>
+      </div>
+      <button id="clear-completed-btn">Clear Completed</button>
+    </div>
+
+  </div>
+</div>

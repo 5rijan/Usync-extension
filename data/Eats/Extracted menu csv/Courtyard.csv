@@ -1,0 +1,117 @@
+Type,Name,Price,Availability,Timings
+BREAKFAST,Toast,6.5,Monday-Friday,8:00am-10:30am
+BREAKFAST,Eggs on Toast,10,Monday-Friday,8:00am-10:30am
+BREAKFAST,Breakfast Burger,13,Monday-Friday,8:00am-10:30am
+BREAKFAST,Eggs Benedict,15,Monday-Friday,8:00am-10:30am
+BREAKFAST,Chilli Scrambled Eggs & Avocado Toast,15,Monday-Friday,8:00am-10:30am
+BREAKFAST,Sourdough Crumpets,15,Monday-Friday,8:00am-10:30am
+BREAKFAST,Spinach & Roasted Portobello Mushrooms,15.5,Monday-Friday,8:00am-10:30am
+BREAKFAST,Sausage & Eggs,14.5,Monday-Friday,8:00am-10:30am
+BREAKFAST,Canadian Breakfast,18,Monday-Friday,8:00am-10:30am
+BREAKFAST,Smashed Avocado,15,Monday-Friday,8:00am-10:30am
+BREAKFAST,Courtyard Big Breaky,20,Monday-Friday,8:00am-10:30am
+BREAKFAST,Portobello mushrooms / hash brown / two eggs (side),4,Monday-Friday,8:00am-10:30am
+BREAKFAST,Sujuk beef sausage / ham / bacon (side),4.5,Monday-Friday,8:00am-10:30am
+BREAKFAST,Persian feta / smashed avocado / smoked salmon (side),5,Monday-Friday,8:00am-10:30am
+PASTA,Smoked Eggplant & Ricotta Gnocchi Bake,17,Monday-Friday,11:30am-2:30pm
+PASTA,Potato & Confit Garlic Ravioli,17,Monday-Friday,11:30am-2:30pm
+PASTA,Prawn & Lemon Linguine,18,Monday-Friday,11:30am-2:30pm
+SALAD,Warm Salt & Pepper Squid Salad,16.5,Monday-Friday,11:30am-2:30pm
+SALAD,Pumpkin & Rocket Salad,16.5,Monday-Friday,11:30am-2:30pm
+SALAD,Goodness Bowl,17,Monday-Friday,11:30am-2:30pm
+PIZZA,Garlic Rosemary & Cheese,11.5,Monday-Friday,11:30am-
+PIZZA,Margherita,17,Monday-Friday,11:30am-
+PIZZA,Pancetta & Pineapple,17,Monday-Friday,11:30am-
+PIZZA,Mediterranean Vege,17.5,Monday-Friday,11:30am-
+PIZZA,Peri Peri Chicken,18,Monday-Friday,11:30am-
+PIZZA,Pancetta Mushroom,18,Monday-Friday,11:30am-
+PIZZA,Sopressa Salami & Calabrian Chilli,18,Monday-Friday,11:30am-
+PIZZA,Plant Based Pizza,18,Monday-Friday,11:30am-
+PIZZA,Pork Mushroom Rosemary & Potato,18.5,Monday-Friday,11:30am-
+PIZZA,Tandoori Chicken & Avocado,19,Monday-Friday,11:30am-
+DAILY SPECIALS,Salad of the Day,10.5,Monday-Friday,11:30am-
+DAILY SPECIALS,Pasta of the Day,11,Monday-Friday,11:30am-
+DAILY SPECIALS,Quarter Pizza,5,Monday-Friday,11:30am-
+DAILY SPECIALS,Half Pizza,9,Monday-Friday,11:30am-
+TO SHARE,Garlic & Cheese Bread,6.5,Monday-Friday,11:30am-
+TO SHARE,Pesto Bread,6.5,Monday-Friday,11:30am-
+TO SHARE,Shoestring Fries,13,Monday-Friday,11:30am-
+TO SHARE,Potato Wedges,10.5,Monday-Friday,11:30am-
+TO SHARE,Truffle & Porcini Arancini,13.5,Monday-Friday,11:30am-
+TO SHARE,Salt & Pepper Squid,15,Monday-Friday,11:30am-
+TO SHARE,Antipasto,7,Monday-Friday,11:30am-
+COFFEE,Latte / Flat White / Cappuccino / Long Black (reg),4,Monday-Friday,8:00am-5:30pm
+COFFEE,Latte / Flat White / Cappuccino / Long Black (lge),4.8,Monday-Friday,8:00am-5:30pm
+COFFEE,Mocha (reg),4.2,Monday-Friday,8:00am-5:30pm
+COFFEE,Mocha (lge),5.2,Monday-Friday,8:00am-5:30pm
+COFFEE,Espresso / Macchiato / Piccolo,3.7,Monday-Friday,8:00am-5:30pm
+COFFEE,Hot Chocolate / Chai Latte (reg),4,Monday-Friday,8:00am-5:30pm
+COFFEE,Hot Chocolate / Chai Latte (lge),4.8,Monday-Friday,8:00am-5:30pm
+COFFEE,Turmeric / Matcha / Taro / Energy Chai Latte (reg),4.8,Monday-Friday,8:00am-5:30pm
+COFFEE,Turmeric / Matcha / Taro / Energy Chai Latte (lge),5.5,Monday-Friday,8:00am-5:30pm
+COFFEE,EXTRAS,0.7,Monday-Friday,8:00am-5:30pm
+TEA,English Breakfast / Earl Gray / Chamomile / Peppermint / Green Tea / Lemon Ginger,3,Monday-Friday,8:00am-5:30pm
+COLD DRINKS,Iced Coffee / Iced Chocolate,7,Monday-Friday,8:00am-5:30pm
+COLD DRINKS,Iced Mocha / Chai / Turmeric / Matcha / Taro,7.5,Monday-Friday,8:00am-5:30pm
+COLD DRINKS,Courtyard Signature Iced Tea,6.5,Monday-Friday,8:00am-5:30pm
+COLD DRINKS,Homemade Lemonade,6,Monday-Friday,8:00am-5:30pm
+COLD DRINKS,Smoothies / Frappes,8.5,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Tooheys New (schooner),7.5,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Tooheys New (jug),20,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Furphy Lager (schooner),8.5,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Furphy Lager (jug),21,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Mountain Goat (schooner),9,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Mountain Goat (jug),21,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Byron Bay Lager (schooner),9.5,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Byron Bay Lager (jug),23,Monday-Friday,8:00am-5:30pm
+BEER (TAP),James Squire 150 Lashes Pale Ale (schooner),9.5,Monday-Friday,8:00am-5:30pm
+BEER (TAP),James Squire 150 Lashes Pale Ale (jug),23,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Stone & Wood Pacific Ale (schooner),10,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Stone & Wood Pacific Ale (jug),25,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Balta XPA (schooner),10.5,Monday-Friday,8:00am-5:30pm
+BEER (TAP),Balta XPA (jug),25,Monday-Friday,8:00am-5:30pm
+BEER GROWLER (1.9L),BEER GROWLER (1.9L),32,Monday-Friday,12:00pm-5:30pm
+CIDER / SELTZER,James Squire Orchard Crush Apple (schooner),9.5,Monday-Friday,8:00am-5:30pm
+CIDER / SELTZER,James Squire Orchard Crush Apple (jug),25,Monday-Friday,8:00am-5:30pm
+CIDER / SELTZER,FELLR Brewed Seltzer 300ml,10,Monday-Friday,8:00am-5:30pm
+CIDER / SELTZER,FELLR Cocktail Seltzer 250ml,10.5,Monday-Friday,8:00am-5:30pm
+SPIRITS,Johnnie Walker Red / Bundaberg Rum / Gordons Gin / Smirnoff Red Vodka / Bulleit Bourbon,10,Monday-Friday,8:00am-5:30pm
+COCKTAILS,Pimms Cup No. 1 (glass),15,Monday-Friday,8:00am-5:30pm
+COCKTAILS,Pimms Cup No. 1 (carafe),42,Monday-Friday,8:00am-5:30pm
+COCKTAILS,Aperol Spritz (glass),15,Monday-Friday,8:00am-5:30pm
+COCKTAILS,Aperol Spritz (carafe),42,Monday-Friday,8:00am-5:30pm
+COCKTAILS,Pink Gin Spritz (glass),15,Monday-Friday,8:00am-5:30pm
+COCKTAILS,Pink Gin Spritz (carafe),42,Monday-Friday,8:00am-5:30pm
+ZERO ALCOHOL,Yes You Can Cocktails 250ml,7.5,Monday-Friday,8:00am-5:30pm
+ZERO ALCOHOL,Peroni Libera 0% 330ml,8,Monday-Friday,8:00am-5:30pm
+ZERO ALCOHOL,Pepsi / Pepsi Max / Lemon Lime Bitters / Ginger Ale / Lemonade,4.6,Monday-Friday,8:00am-5:30pm
+CHAMPAGNE,G.H. Mumm Cordon Rouge NV (bottle),92,Monday-Friday,8:00am-5:30pm
+SPARKLING,Mt Yengo Sparkling NV (glass),8,Monday-Friday,8:00am-5:30pm
+SPARKLING,Mt Yengo Sparkling NV (bottle),38,Monday-Friday,8:00am-5:30pm
+SPARKLING,Amelia Burge Pinot Noir Chard Brut NV (glass),10,Monday-Friday,8:00am-5:30pm
+SPARKLING,Amelia Burge Pinot Noir Chard Brut NV (bottle),42,Monday-Friday,8:00am-5:30pm
+SPARKLING,Santa Margherita Prosecco (glass),12,Monday-Friday,8:00am-5:30pm
+SPARKLING,Santa Margherita Prosecco (bottle),50,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Mt Yengo 'Vines of the Earth' Prino Grigio (glass),8,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Mt Yengo 'Vines of the Earth' Prino Grigio (lrg glass),10,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Mt Yengo 'Vines of the Earth' Prino Grigio (bottle),38,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Tempus Two Sauvignon Blanc (glass),8.5,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Tempus Two Sauvignon Blanc (lrg glass),11,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Tempus Two Sauvignon Blanc (bottle),40,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Hesketh 'Lost Weekend' Chardonnay (glass),9,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Hesketh 'Lost Weekend' Chardonnay (lrg glass),12,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Hesketh 'Lost Weekend' Chardonnay (bottle),42,Monday-Friday,8:00am-5:30pm
+WHITE WINE,Isabel Estate Sauvignon Blanc (bottle),45,Monday-Friday,8:00am-5:30pm
+RED WINE,Mt Yengo 'Vines of the Earth' Shiraz (glass),8,Monday-Friday,8:00am-5:30pm
+RED WINE,Mt Yengo 'Vines of the Earth' Shiraz (lrg glass),10,Monday-Friday,8:00am-5:30pm
+RED WINE,Mt Yengo 'Vines of the Earth' Shiraz (bottle),38,Monday-Friday,8:00am-5:30pm
+RED WINE,Tempus Two Merlot (glass),8.5,Monday-Friday,8:00am-5:30pm
+RED WINE,Tempus Two Merlot (lrg glass),11,Monday-Friday,8:00am-5:30pm
+RED WINE,Tempus Two Merlot (bottle),40,Monday-Friday,8:00am-5:30pm
+RED WINE,Hesketh 'Lost Weekend' Chardonnay (glass),9,Monday-Friday,8:00am-5:30pm
+RED WINE,Hesketh 'Lost Weekend' Chardonnay (lrg glass),12,Monday-Friday,8:00am-5:30pm
+RED WINE,Hesketh 'Lost Weekend' Chardonnay (bottle),42,Monday-Friday,8:00am-5:30pm
+RED WINE,Riddoch Coonawarra Cabernet Sauvignon (bottle),45,Monday-Friday,8:00am-5:30pm
+ROSE,Saint Louis de Provence (glass),8.5,Monday-Friday,8:00am-5:30pm
+ROSE,Saint Louis de Provence (lrg glass),11,Monday-Friday,8:00am-5:30pm
+ROSE,Saint Louis de Provence (bottle),40,Monday-Friday,8:00am-5:30pm

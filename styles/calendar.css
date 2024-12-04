@@ -1,0 +1,524 @@
+/* Calendar content wrapper */
+#calendar-content {
+    width: 100%;
+    height: 250px;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #calendar-content.active {
+    display: flex;
+  }
+  
+  /* Events section refinements */
+  #events-section {
+    display: none;
+    position: relative;
+    width: 85%;
+    max-height: 180px;
+    overflow-y: auto;
+    margin: 10px auto 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  /* When showing events, adjust the calendar container instead of body */
+  #calendar {
+    width: 85%;
+    height: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  /* Event cards container */
+  #event-list {
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  
+  /* Tabs container */
+  #tabs {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  /* Individual tab styles */
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s;
+    font-size: 14px;
+  }
+  
+  /* Active tab styling */
+  .tab.active {
+    color: #e64626;
+  }
+  
+  .tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e64626;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Tab content styles */
+  #tab-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .tab-content {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+  }
+  
+  .tab-content.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Calendar styles */
+  #calendar {
+    width: 85%;
+    height: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 12px 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  #calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px 15px 5px;
+    font-size: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+  }
+  
+  #nav-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  #nav-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 22px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    background-color: transparent;
+  }
+  
+  #nav-buttons button img {
+    width: 14px;
+    height: 14px;
+    transition: all 0.2s ease;
+    filter: invert(30%) sepia(0%) saturate(0%) hue-rotate(238deg) brightness(90%) contrast(90%);
+  }
+  
+  #nav-buttons button:hover img {
+    filter: invert(36%) sepia(74%) saturate(1242%) hue-rotate(341deg) brightness(98%) contrast(88%);
+    transform: scale(1.1);
+  }
+  
+  /* Month-year container styling */
+  #month-year-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    margin-right: 20px;
+  }
+  
+  #month-year {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  #subscribe-calendar {
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    opacity: 0;
+  }
+  
+  #subscribe-calendar img {
+    width: 14px;
+    height: 14px;
+    transition: all 0.2s ease;
+    filter: invert(30%) sepia(0%) saturate(0%) hue-rotate(238deg) brightness(90%) contrast(90%);
+  }
+  
+  /* Hover effects */
+  #month-year-container:hover {
+    background-color: #f8f8f8;
+  }
+  
+  #month-year-container:hover #subscribe-calendar {
+    opacity: 1;
+  }
+  
+  #subscribe-calendar:hover img {
+    filter: invert(36%) sepia(74%) saturate(1242%) hue-rotate(341deg) brightness(98%) contrast(88%);
+  }
+  
+  /* Specific styling for the current month button */
+  #current-month {
+    font-size: 10px !important;
+  }
+  
+  /* Weekdays grid */
+  #weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 600;
+    color: #666;
+    font-size: 12px;
+  }
+  
+  /* Days grid */
+  #days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 0 2px;
+    flex: 1;
+    overflow: hidden;
+    min-height: 165px;
+  }
+  
+  .day {
+    aspect-ratio: 1;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.2s ease;
+    font-size: 13px;
+    margin: 1px;
+  }
+  
+  .day:hover {
+    transform: scale(1.02);
+    background-color: #f8f8f8;
+    border-color: #eee;
+    color: black;
+  }
+  
+  .current-day {
+    background-color: #e64626;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+  }
+  
+  .previous-month-day,
+  .next-month-day {
+    color: #ccc;
+  }
+  
+  /* Event indicator dot */
+  .day.has-events::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 3px;
+    background-color: #69a769;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  /* Style for the days with events */
+  .day.has-events {
+    position: relative;
+  }
+  
+ 
+  
+  .event-card:hover {
+    border-color: #e6e6e6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+  
+  .event-date-header {
+    border-bottom: 1px solid #f5f5f5;
+  }
+  
+  .event-day {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #444;
+    margin: 0;
+  }
+  
+  .event-date {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  .event-details {
+    display: grid;
+    gap: 8px;
+  }
+  
+  .event-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e64626;
+    margin: 0;
+  }
+  
+  .event-time {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  .event-location {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Style the scrollbar */
+  #events-section::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  #events-section::-webkit-scrollbar-track {
+    background: #f8f8f8;
+    border-radius: 3px;
+  }
+  
+  #events-section::-webkit-scrollbar-thumb {
+    background: #e64626;
+    border-radius: 3px;
+    opacity: 0.8;
+  }
+  
+  #events-section::-webkit-scrollbar-thumb:hover {
+    background: #d13515;
+  }
+  
+  /* Add these styles for the subscribe button and modal */
+  #subscription-controls {
+    position: absolute;
+    top: 16px;  
+    right: 130px;
+    z-index: 100;
+  }
+  
+  #subscribe-calendar {
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.2s ease;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    opacity: 0;  /* Hidden by default */
+    transform: translateX(5px);
+  }
+  
+  #subscribe-calendar img {
+    width: 16px;
+    height: 16px;
+    transition: all 0.2s ease;
+    filter: invert(30%) sepia(0%) saturate(0%) hue-rotate(238deg) brightness(90%) contrast(90%);
+  }
+  
+  /* Show subscription button on month-year hover */
+  #month-year:hover + #nav-buttons + #subscription-controls #subscribe-calendar,
+  #subscribe-calendar:hover {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  #subscribe-calendar:hover img {
+    filter: invert(36%) sepia(74%) saturate(1242%) hue-rotate(341deg) brightness(98%) contrast(88%);
+  }
+  
+  /* Modal styles */
+  #subscribe-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    max-width: 250px;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  #subscribe-popup label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  #calendar-url {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-family: "Nunito Sans", sans-serif;
+    transition: all 0.2s ease;
+    background-color: #fafafa;
+  }
+  
+  #calendar-url:focus {
+    outline: none;
+    border-color: #e64626;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(230, 70, 38, 0.1);
+  }
+  
+  .modal-buttons {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+  }
+  
+  #confirm-subscribe,
+  #cancel-subscribe {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 80px;
+    transition: all 0.2s ease;
+  }
+  
+  #confirm-subscribe {
+    background-color: #e64626;
+    color: white;
+  }
+  
+  #confirm-subscribe:hover {
+    background-color: #d13515;
+    transform: translateY(-1px);
+  }
+  
+  #cancel-subscribe {
+    background-color: #f1f1f1;
+    color: #666;
+  }
+  
+  #cancel-subscribe:hover {
+    background-color: #e4e4e4;
+    transform: translateY(-1px);
+  }
+  
+  /* Modal overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(1px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* University and Productivity tab content */
+  #university-content,
+  #productivity-content {
+    padding: 20px;
+  }
+  
+  
+  
+  
