@@ -62,17 +62,12 @@ We welcome contributions to make uSync even better!
 - [ ] Completing menus and adding data for all campus food places.
 
 
-## 💡 Feedback  
-
-Your feedback helps us improve! If you have any ideas, suggestions, or issues, please open an issue in this repository or reach out to us directly.  
-
-
 ## 👨‍💻 About the Author  
 
 **Srijan Chaudhary**  
 Second-year Bachelor of Engineering Honours (Software Engineering) student at the University of Sydney.  
 
-Passionate about creating tools that simplify and enhance the student experience. uSync is a personal project designed to bridge the gap between students and their campus, making university life more organized and efficient.  
+Passionate about creating tools that simplify and enhance the student experience. USync is a personal project designed to bridge the gap between students and their campus, making university life more organized and efficient.  
 
 Feel free to reach out for collaboration or feedback!  
 
