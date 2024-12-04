@@ -36,7 +36,6 @@ USync is a feature-rich Chrome extension designed to enhance your university exp
 ### 🔐 **Privacy First**  
 USync operates without a traditional backend. No personal data is stored; all information is fetched directly from the university.  
 
----
 
 ## 🔧 Installation  
 
@@ -46,7 +45,6 @@ USync operates without a traditional backend. No personal data is stored; all in
 4. Click **Load Unpacked** and select the project folder.  
 5. Pin the uSync extension to your toolbar for easy access!  
 
----
 
 ## 🤝 Contributing  
 
@@ -58,18 +56,16 @@ We welcome contributions to make uSync even better!
 3. **Submit a Pull Request (PR)**: Describe your changes in detail.  
 
 ### Current Features in Development:  
-[] Expanding events to include all university-wide activities (not just USU).  
-[] A more robust calendar that allows subscriptions to Google or Apple Calendar.  
-[] Adding the ability for users to create and add custom events.  
-[] Completing menus and adding data for all campus food places.  
+- [ ] Expanding events to include all university-wide activities (not just USU).  
+- [ ] A more robust calendar that allows subscriptions to Google or Apple Calendar.  
+- [ ] Adding the ability for users to create and add custom events.  
+- [ ] Completing menus and adding data for all campus food places.
 
----
 
 ## 💡 Feedback  
 
 Your feedback helps us improve! If you have any ideas, suggestions, or issues, please open an issue in this repository or reach out to us directly.  
 
----
 
 ## 👨‍💻 About the Author  
 
