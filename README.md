@@ -10,29 +10,29 @@ USync is a feature-rich Chrome extension designed to enhance your university exp
 ### 1. **Calendar**  
 - View your university timetable in an interactive calendar format.  
 - Subscribe to your university calendar for automatic updates.  
-![Calendar](assets/promotional/Screenshot%202024-12-03%20at%207.41.10%20am.png)
+![Calendar](assets/promotional/calendar.png)
 
 ### 2. **University**  
 #### a. **Events**  
 - Discover current university events, clubs organizing them, locations, times, and more.  
-![Events](assets/promotional/Screenshot%202024-12-03%20at%207.41.19%20am.png)
+![Events](assets/promotional/events.png)
 
 #### b. **Library**  
 - See all campus libraries and their operational status.  
 - Check facilities within each library to determine availability.  
 - View occupancy details for Fisher and Law libraries (e.g., Occupied: 46 (7.12%)) to plan your visits.  
-![Library](assets/promotional/Screenshot%202024-12-03%20at%207.41.34%20am.png)
+![Library](assets/promotional/library.png)
 
 #### c. **Food**  
 - Explore food places on campus, filtered by location.  
 - Check whether specific food places are open or closed.  
 - View menus, prices, and availability for certain locations.  
-![Food](assets/promotional/Screenshot%202024-12-03%20at%207.41.54%20am.png)
+![Food](assets/promotional/food.png)
 
 ### 3. **Productivity**  
 - **Pomodoro Timer**: Default to 25 minutes but fully customizable for any task.  
 - **To-Do List**: Organize tasks to stay focused and boost productivity.  
-![Productivity](assets/promotional/Screenshot%202024-12-03%20at%207.42.04%20am.png)
+![Productivity](assets/promotional/productivity.png)
 
 
 ### 🔐 **Privacy First**  
