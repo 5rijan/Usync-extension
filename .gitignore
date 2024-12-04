@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
