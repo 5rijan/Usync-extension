@@ -2,7 +2,7 @@
 
 **"Your Campus, Your Connection, All in One Place!"**
 
-uSync is a feature-rich Chrome extension designed to enhance your university experience. From managing timetables to exploring food options, tracking library occupancy, and staying productive, uSync helps you stay connected to the University of Sydney.
+USync is a feature-rich Chrome extension designed to enhance your university experience. From managing timetables to exploring food options, tracking library occupancy, and staying productive, USync helps you stay connected to the University of Sydney.
 
 ---
 
@@ -11,27 +11,34 @@ uSync is a feature-rich Chrome extension designed to enhance your university exp
 ### 1. **Calendar**  
 - View your university timetable in an interactive calendar format.  
 - Subscribe to your university calendar for automatic updates.  
+![Calendar](assets/promotional/Screenshot 2024-12-03 at 7.41.10 am.png)
+
 
 ### 2. **University**  
 #### a. **Events**  
-- Discover current university events, clubs organizing them, locations, times, and more.  
+- Discover current university events, clubs organizing them, locations, times, and more. 
+![Events](assets/promotional/Screenshot 2024-12-03 at 7.41.19 am.png)
 
 #### b. **Library**  
 - See all campus libraries and their operational status.  
 - Check facilities within each library to determine availability.  
-- View occupancy details for Fisher and Law libraries (e.g., Occupied: 46 (7.12%)) to plan your visits.  
+- View occupancy details for Fisher and Law libraries (e.g., Occupied: 46 (7.12%)) to plan your visits. 
+![Library](assets/promotional/Screenshot 2024-12-03 at 7.41.34 am.png)
 
 #### c. **Food**  
 - Explore food places on campus, filtered by location.  
 - Check whether specific food places are open or closed.  
-- View menus, prices, and availability for certain locations.  
+- View menus, prices, and availability for certain locations. 
+![Food](assets/promotional/Screenshot 2024-12-03 at 7.41.54 am.png)
 
 ### 3. **Productivity**  
 - **Pomodoro Timer**: Default to 25 minutes but fully customizable for any task.  
-- **To-Do List**: Organize tasks to stay focused and boost productivity.  
+- **To-Do List**: Organize tasks to stay focused and boost productivity. 
+![Productivity](assets/promotional/Screenshot 2024-12-03 at 7.42.04 am.png)
+
 
 ### 🔐 **Privacy First**  
-uSync operates without a traditional backend. No personal data is stored; all information is fetched directly from the university.  
+USync operates without a traditional backend. No personal data is stored; all information is fetched directly from the university.  
 
 ---
 
@@ -55,24 +62,10 @@ We welcome contributions to make uSync even better!
 3. **Submit a Pull Request (PR)**: Describe your changes in detail.  
 
 ### Current Features in Development:  
-- Expanding events to include all university-wide activities (not just USU).  
-- A more robust calendar that allows subscriptions to Google or Apple Calendar.  
-- Adding the ability for users to create and add custom events.  
-- Completing menus and adding data for all campus food places.  
-
----
-
-## 🌟 Future Features  
-
-- Enhanced library search to include real-time data on book availability.  
-- Advanced filters for food places based on dietary preferences.  
-- Integration with University of Sydney's official app for seamless syncing.  
-
----
-
-## 🛠 File Structure  
-
-The codebase is organized for ease of navigation. Each feature has its dedicated files and resources under clearly named directories.
+[] Expanding events to include all university-wide activities (not just USU).  
+[] A more robust calendar that allows subscriptions to Google or Apple Calendar.  
+[] Adding the ability for users to create and add custom events.  
+[] Completing menus and adding data for all campus food places.  
 
 ---
 

@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Usync",
+    "name": "USync",
     "version": "1.0",
     "description": "Your Campus, Your Connection, All in One Place!.",
     "permissions": ["webRequest"],
