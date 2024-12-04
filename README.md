@@ -10,7 +10,7 @@ USync is a feature-rich Chrome extension designed to enhance your university exp
 ### 1. **Calendar**  
 - View your university timetable in an interactive calendar format.  
 - Subscribe to your university calendar for automatic updates.  
-<img src="assets/promotional/calendar.png" width="200" height="450" />
+<img src="assets/promotional/calendar.png" width="200" height="350" />
 
 ### 2. **University**  
 #### a. **Events**  
