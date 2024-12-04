@@ -4,9 +4,10 @@
 
 USync is a feature-rich Chrome extension designed to enhance your university experience. From managing timetables to exploring food options, tracking library occupancy, and staying productive, USync helps you stay connected to the University of Sydney.
 
-<img src="assets/promotional/calendar.png" width="32%" />
+<p align="center">
+  <img src="assets/promotional/calendar.png" width="35%" />
+</p>
 
----
 ## 🚀 Features  
 
 ### 1. **Calendar**  
