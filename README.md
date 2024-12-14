@@ -56,7 +56,7 @@ USync operates without a traditional backend. No personal data is stored; all in
 
 ## 🤝 Contributing  
 
-We welcome contributions to make uSync even better!  
+We welcome contributions to make USync even better!  
 
 ### How to Contribute:  
 1. **Fork the repository**: Clone it to your local machine.  
