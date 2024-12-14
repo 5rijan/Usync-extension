@@ -38,7 +38,7 @@ USync operates without a traditional backend. No personal data is stored; all in
 
 ## 🎥 Video Demo
 
-[![Watch the demo](https://img.youtube.com/vi/stQ7gq0E--s/0.jpg)](https://www.youtube.com/watch?v=stQ7gq0E--s)
+[![Watch the demo](https://www.youtube.com/watch?v=stQ7gq0E--s)
 
 ## 🔧 Installation  
 
