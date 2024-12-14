@@ -36,15 +36,23 @@ USync is a feature-rich Chrome extension designed to enhance your university exp
 ### 🔐 **Privacy First**  
 USync operates without a traditional backend. No personal data is stored; all information is fetched directly from the university.  
 
+## 🎥 Video Demo
+
+[![Watch the demo](https://img.youtube.com/vi/stQ7gq0E--s/0.jpg)](https://www.youtube.com/watch?v=stQ7gq0E--s)
 
 ## 🔧 Installation  
 
+### Option 1: Install from the Chrome Web Store (Recommended)  
+1. Visit the [USync Chrome Web Store page](https://chromewebstore.google.com/detail/usync/cllffmandgbmnabfdaakajjpmlfmibpj).  
+2. Click **Add to Chrome**.  
+3. Confirm the installation and pin the USync extension to your toolbar for easy access!  
+
+### Option 2: Manual Installation  
 1. Clone this repository or download the ZIP file.  
 2. Open Chrome and navigate to `chrome://extensions`.  
 3. Enable **Developer Mode** (toggle in the top-right corner).  
 4. Click **Load Unpacked** and select the project folder.  
-5. Pin the uSync extension to your toolbar for easy access!  
-
+5. Pin the USync extension to your toolbar for easy access!  
 
 ## 🤝 Contributing  
 
